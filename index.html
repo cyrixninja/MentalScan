@@ -137,7 +137,7 @@
   var emotion_colors = ["#ff0000", "#006600", "#b30000", "#ffe100", "#0000cc", "#ff3399", "#99ff33"];
   var offset_x = 20;
   var offset_y = 40;
-  loadModel('../models/mobilenetv1_models/model.json')
+  loadModel('mobilenetv1_models/model.json')
   async function createModel(path) {
       let model_tmp = await tf.loadModel(path)
       return model_tmp
